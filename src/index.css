@@ -4,6 +4,16 @@ body {
   color: rgba(244,244,244,255);
 }
 
+@media screen and (max-width:480px){
+  body {
+    position:relative;
+  }
+  
+  body,html{
+    overflow-x: hidden;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

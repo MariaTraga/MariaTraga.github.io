@@ -48,6 +48,8 @@
 
 .about-desc{
     font-weight: 300;
+    word-wrap: auto;
+    padding:10px 30px 30px 0px;
 }
 
 @media screen and (max-width:480px){
