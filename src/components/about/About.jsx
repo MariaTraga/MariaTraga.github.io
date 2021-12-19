@@ -1,5 +1,6 @@
 import "./About.css";
 import Me1 from "../../images/me1.jpg";
+import Me2 from "../../images/me2.png";
 
 const About = () => {
     return (
@@ -11,7 +12,7 @@ const About = () => {
                 <div className="about-card">
                     <img 
                         className="about-image" 
-                        src={Me1}/>
+                        src={Me2}/>
                 </div>
             </div>
             <div className="about-right">
