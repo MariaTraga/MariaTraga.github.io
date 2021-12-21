@@ -1,6 +1,5 @@
 import "./Introduction.css";
 import Me from "../../images/me.png";
-import Me1 from "../../images/me1.jpg";
 import { introduction } from "../../ProjectData";
 
 const Introduction = () => {
@@ -18,6 +17,11 @@ const Introduction = () => {
                     <p className="intro-desc">
                         {introduction.description}
                     </p>
+                    <a href={introduction.resume} className="intro-resume">
+                        <div className="intro-resume-text">
+                            <div>Resume</div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div className="intro-right">

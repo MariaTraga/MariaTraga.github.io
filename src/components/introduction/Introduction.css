@@ -35,7 +35,6 @@
 }
 
 .intro-name{
-    font-size: 60px;
     margin: 0;
 }
 
@@ -81,7 +80,7 @@
     right:0;
 }
 
-.intro-image-wrapper {
+.intro-image-wrapper{
     padding-top: 1ev;
     width: 400px;
     height: 400px;
@@ -93,6 +92,22 @@
     opacity: 0;
     animation: fadein forwards 500ms;
     animation-delay: 500ms;
+}
+
+.intro-resume{
+    background-color: brown;
+    border-radius: 10px;
+    border:rgb(4, 59, 68) solid 1px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.intro-resume-text{
+    padding: 10px;
+}
+
+.intro-resume:hover{
+    animation: zoom 500ms forwards;
 }
 
 @media screen and (max-width:870px){

@@ -183,8 +183,9 @@ export const introduction = {
         "Back-End",
         "Web-APIs",
         "Unity Developer",
-        "Unity Designer/Artist"
-    ]
+        "Unity Designer"
+    ],
+    resume: "https://drive.google.com/file/d/1lJxb-3ViCLMxcUWfcFRcvcQkBpbADKtC/view"
 }
 
 export const contact = {
@@ -206,7 +207,7 @@ export const contact = {
         },
         {
             id: 3,
-            link: "https://www.google.com",
+            link: "https://www.linkedin.com/in/maria-traga-33028013a/",
             info: "LinkedIn",
             img: linkedIn
         },
