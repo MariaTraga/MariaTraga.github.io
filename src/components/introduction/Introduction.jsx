@@ -1,26 +1,22 @@
 import "./Introduction.css";
 import Me from "../../images/me.png";
 import Me1 from "../../images/me1.jpg";
+import { introduction } from "../../ProjectData";
 
 const Introduction = () => {
     return(
         <div className="intro">
             <div className="intro-left">
                 <div className="intro-left-wrapper">
-                    <h2 className="intro-introtext">Hello my name is</h2>
-                    <h1 className="intro-name">Maria Traga</h1>
+                    <h2 className="intro-introtext">{introduction.introtext}</h2>
+                    <h1 className="intro-name">{introduction.name}</h1>
                     <div className="intro-title">
                         <div className="intro-title-wrapper">
-                            <div className="intro-title-item">Web Developer</div>
-                            <div className="intro-title-item">Front-End</div>
-                            <div className="intro-title-item">Back-End</div>
-                            <div className="intro-title-item">Web APIs</div>
-                            <div className="intro-title-item">Unity Developer</div>
-                            <div className="intro-title-item">Unity Designer/Artist</div>                        </div>
+                            {introduction.titles.map((title, index) => (<div key={index} className="intro-title-item">{title}</div>))}
+                        </div>
                     </div>
                     <p className="intro-desc">
-                        I design and develop Websites, Apps and APIs
-                        as well as Unity Applications and Videogames.
+                        {introduction.description}
                     </p>
                 </div>
             </div>

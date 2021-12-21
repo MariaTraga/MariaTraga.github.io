@@ -14,7 +14,11 @@
 }
 
 .about-right{
-    flex:1;   
+    flex:1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-card.bg{
@@ -36,10 +40,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.about-title{
-    font-weight: 400;
+    animation: fadein 2s forwards;
 }
 
 .about-sub{
@@ -47,12 +48,14 @@
 }
 
 .about-desc{
-    font-weight: 300;
-    word-wrap: auto;
     padding:10px 30px 30px 0px;
 }
 
-@media screen and (max-width:480px){
+a{
+    color: rgba(244,244,244,255);
+}
+
+@media screen and (max-width:540px){
     .about{
         flex-direction: column;
         text-align: center;
@@ -70,7 +73,33 @@
     .about-card.bg{
         display: none;
     }
+    
     .about-right{
-        padding:20px;
+        padding: 20px;
+        padding-top: 5px;
+        justify-content:start;
     }
+
+    .about-desc, .about-sub{
+        display: none;
+    }
+}
+
+.about-collabs, .about-technologies{
+    text-align: center;
+    padding-top:30px;
+}
+
+.about-collabs-list, .about-technologies-list{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.about-technology{
+    background-color: indigo;
+    padding: 5px;
 }

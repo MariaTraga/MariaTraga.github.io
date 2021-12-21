@@ -4,7 +4,105 @@ body {
   color: rgba(244,244,244,255);
 }
 
-@media screen and (max-width:480px){
+h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+a{
+  word-wrap: break-word;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.desc-text{
+  font-size: 25px;
+}
+
+@keyframes flick {
+  0%{
+      transform: rotate(-2deg);
+  }
+  50%{
+      transform: rotate(2deg);
+  }
+  100%{
+      transform: rotate(-2deg);
+  }
+}
+
+@keyframes move {
+  20%{
+      transform: translateY(-50px);
+  }
+  40%{
+      transform: translateY(-100px);
+  }
+  60%{
+      transform: translateY(-150px);
+  }
+  80%{
+      transform: translateY(-200px);
+  }
+  100%{
+      transform: translateY(-250px);
+  }
+}
+
+@keyframes slidein {
+  0%{
+      left: 100%
+  }
+  100%{
+      left: 0%;
+  }
+}
+
+@keyframes fadein {
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+@keyframes zoom {
+  0% {
+      transform: scale(1, 1);
+      opacity: 0.75;
+  }
+
+  100% {
+      transform: scale(1.1, 1.1);
+      opacity: 1;
+  }
+}
+
+@-webkit-keyframes snackbar-fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes snackbar-fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes snackbar-fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes snackbar-fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@media screen and (max-width:950px){
   body {
     position:relative;
   }
@@ -12,9 +110,8 @@ body {
   body,html{
     overflow-x: hidden;
   }
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  h1{
+    font-size: 30px;
+  }
 }

@@ -27,7 +27,6 @@
 }
 
 .contact-title{
-    font-size: 60px;
     width: 80%;
     margin-top: 0;
     margin-bottom: 80px;
@@ -37,7 +36,6 @@
     display: flex;
     align-items: center;
     margin: 50px 0px;
-    font-weight: 300;
     width: 70%;
     font-size: 25px;
 }
@@ -50,8 +48,6 @@
 
 .contact-desc{
     margin-top: 50px;
-    font-weight: 200;
-    font-size: 25px;
 }
 
 form{
@@ -64,14 +60,14 @@ input{
     border: none;
     border-bottom: 1px solid black;
     margin: 10px 0px;
-    font-size: 14px;
+    font-size: 25px;
     padding-left: 10px;
 }
 
 textarea{
     width:100%;
     margin: 10px 0px;
-    font-size: 14px;
+    font-size: 25px;
     padding-left: 10px;
 }
 
@@ -86,18 +82,25 @@ button{
     cursor: pointer;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:870px){
     .contact-wrapper{
         flex-direction: column;
         padding:0px 50px;
     }
     .contact-title{
-        font-size: 30px;
-        margin-top: 20px
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .contact-info{
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
 
     .contact-info-item{
         margin: 20px 0px;
+        font-size: 20px;
         width: 100%;
     }
 
@@ -115,13 +118,40 @@ button{
         height: 40px;
         margin:20px;
         margin-left: 0;
+        font-size: 20px;
     }
 
     button{
-        margin-top:30px;
+        margin-top:10px;
+        margin-bottom:10px;
     }
 
     textarea{
         height: 90px;
+        font-size: 20px;
     }
+
+    .contact-info-item-info{
+        display: none;
+    }
+}
+
+.snackbar{
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px; 
+    -webkit-animation: snackbar-fadein 0.5s, snackbar-fadeout 0.5s 2.5s forwards;
+    animation: snackbar-fadein 0.5s, snackbar-fadeout 0.5s 2.5s forwards;
+}
+
+button:hover{
+    animation: flick 1s infinite;
 }

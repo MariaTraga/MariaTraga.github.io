@@ -9,13 +9,13 @@ const ProjectList = () => {
                 <h1 className="project-list-title">
                     My Projects
                 </h1>
-                <p className="project-list-desc">
-                    My projects so far...
+                <p className="project-list-desc desc-text">
+                    Recent projects...
                 </p>
             </div>
             <div className="project-list-list">
                 {projects.map((project) => (
-                    <Project key={project.id} name={project.name} img={project.img} link={project.link}/>
+                    <Project key={project.id} name={project.name} img={project.img} link={project.link} description={project.description} technologies={project.technologies}/>
                 ))}
             </div>
         </div>

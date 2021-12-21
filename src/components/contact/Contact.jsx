@@ -1,9 +1,7 @@
 import './Contact.css';
-import Phone from '../../images/phone.png';
-import Email from '../../images/email.png';
-import Address from '../../images/address.png';
 import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
+import { contact } from '../../ProjectData';
 
 const Contact = () => {
     const formRef = useRef();
@@ -31,34 +29,32 @@ const Contact = () => {
             <div className="contact-wrapper">
                 <div className="contact-left">
                     <h1 className="contact-title">
-                        Contact info
+                        {contact.title}
                     </h1>
                     <div className="contact-info">
-                        <div className="contact-info-item">
-                            <img src={Phone} alt="" className="contact-icon" />
-                            +30 699999999
-                        </div>
-                        <div className="contact-info-item">
-                            <img src={Email} alt="" className="contact-icon" />
-                            maria.traga@outlook.com
-                        </div>
-                        <div className="contact-info-item">
-                            <img src={Address} alt="" className="contact-icon" />
-                            Athens, Greece
-                        </div>
+                        {contact.items.map((item) => (
+                        <div key={item.id}>
+                            <a href={item.link}>
+                                <div className="contact-info-item">
+                                    <img src={item.img} alt="" className="contact-icon" />
+                                    <div className="contact-info-item-info">{item.info}</div>
+                                </div>
+                            </a>
+                        </div>))}
                     </div>
                 </div>
                 <div className="contact-right">
-                    <p className="contact-desc">
-                        Get in touch! 
+                    <p className="contact-desc desc-text">
+                        {contact.description} 
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder="Name" name="user_name" required/>
                         <input type="text" placeholder="Subject" name="user_subject" required/>
                         <input type="email" placeholder="Email" name="user_email" required/>
                         <textarea rows="5" placeholder="Message" name="user_message" required/>
-                        <button>SUBMIT</button>
-                        {done && "Thank you for contacting me."}
+                        <button className="desc-text">SUBMIT</button>
+
+                        {done && <div className="snackbar desc-text">{contact.message}</div>}
                     </form>
                 </div>
             </div>

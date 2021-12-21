@@ -1,6 +1,6 @@
 import './Project.css'
 
-const Project = ({name, img, link}) => {
+const Project = ({name, img, link, description, technologies}) => {
     return(
         <div className="project">
             <div className="project-broswer">
@@ -12,11 +12,21 @@ const Project = ({name, img, link}) => {
                 <div className="project-circle"></div>
                 <div className="project-circle"></div>
             </div>
-            <a href={link} target="_blank" rel="noreferrer">
-                <div className="project-image-wrapper">
-                    <img className="project-image" src={img}></img>
+            <div className="flip-card">
+                <div className="flip-card-front">
+                    <a href={link} target="_blank" rel="noreferrer">
+                        <div className="project-image-wrapper">
+                            <img className="project-image" src={img}></img>
+                        </div>
+                    </a>
                 </div>
-            </a>
+                <div className="flip-card-back">
+                    <p className="project-desc">{description}</p>
+                    <div className="project-technologies">
+                        {technologies.map((tech, index) => (<div key={index} className="project-technology">{tech}</div>))}
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

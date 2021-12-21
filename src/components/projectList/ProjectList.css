@@ -10,11 +10,6 @@
     width: 65%;
 }
 
-.project-list-title{
-    font-size: 50px;
-    font-weight: 600;
-}
-
 .project-list-desc {
     margin: 20px 0px;
 }
@@ -23,10 +18,11 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap:20px;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:540px){
     .project-list{
         padding:10px;
     }
