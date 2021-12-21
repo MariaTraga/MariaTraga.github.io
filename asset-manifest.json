@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d4046708.css",
-    "main.js": "/static/js/main.ceef3084.js",
+    "main.css": "/static/css/main.9277a414.css",
+    "main.js": "/static/js/main.d7d807d7.js",
     "static/js/787.6dd11c83.chunk.js": "/static/js/787.6dd11c83.chunk.js",
     "static/media/me.png": "/static/media/me.9c2223206d4540c86c5c.png",
     "static/media/tourismappjapan.PNG": "/static/media/tourismappjapan.ab985df7fb7e926c9222.PNG",
@@ -17,12 +17,12 @@
     "static/media/tourismapp.PNG": "/static/media/tourismapp.e683a32516703f7178e7.PNG",
     "static/media/me2.png": "/static/media/me2.1fa6a1d0518bacde0954.png",
     "index.html": "/index.html",
-    "main.d4046708.css.map": "/static/css/main.d4046708.css.map",
-    "main.ceef3084.js.map": "/static/js/main.ceef3084.js.map",
+    "main.9277a414.css.map": "/static/css/main.9277a414.css.map",
+    "main.d7d807d7.js.map": "/static/js/main.d7d807d7.js.map",
     "787.6dd11c83.chunk.js.map": "/static/js/787.6dd11c83.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4046708.css",
-    "static/js/main.ceef3084.js"
+    "static/css/main.9277a414.css",
+    "static/js/main.d7d807d7.js"
   ]
 }
