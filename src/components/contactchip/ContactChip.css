@@ -7,6 +7,10 @@
     border-radius: 25px;
     background-color: #199b35;
   }
+
+  .contact-chip:hover{
+    animation: flick linear .5s infinite;
+  }
   
   .contact-chip img {
     float: left;

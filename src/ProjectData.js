@@ -74,7 +74,6 @@ export const projects = [
         id: 5,
         name: "Spacer",
         img: unity_spacer,
-        link: "#",
         description: "A 3D video game made in Unity.",
         technologies:
         [
@@ -86,7 +85,6 @@ export const projects = [
         id: 6,
         name: "Garden gnomes",
         img: unity_garden_gnomes,
-        link: "#",
         description: "A 2D video game made in Unity.",
         technologies:
         [
@@ -98,7 +96,6 @@ export const projects = [
         id: 7,
         name: "Laser Defender",
         img: unity_laser_defender,
-        link: "#",
         description: "A 2D video game made in Unity.",
         technologies:
         [
@@ -110,7 +107,6 @@ export const projects = [
         id: 8,
         name: "Chase mini game",
         img: astarminigame,
-        link: "#",
         description: "A 2D video game made in Unity. An application of the A* pathfinding algorithm.",
         technologies:
         [
@@ -123,7 +119,6 @@ export const projects = [
         id: 9,
         name: "Explore Santorini",
         img: tourismappandroid,
-        link: "#",
         description: "An android app containing the main attractions of Santorini. Supports google maps geolocation.",
         technologies:
         [
@@ -135,7 +130,6 @@ export const projects = [
         id: 10,
         name: "Explore Japan",
         img: tourismappjapan,
-        link: "#",
         description: "A desktop Japan-guide app.",
         technologies:
         [
@@ -149,16 +143,17 @@ export const collaborations = [
     {
         id: 1,
         name: "Dimitris Malliaris",
-        img: "https://www.thesprucepets.com/thmb/_yrib2KGkS4VJSgCQEl59KPUPOU=/1885x1414/smart/filters:no_upscale()/GettyImages-135630198-5ba7d225c9e77c0050cff91b.jpg",
+        img: "https://dimitrismalliaris.github.io/static/media/me2.da521ffd2cfa2bccc72b.jpg",
         link: "https://dimitrismalliaris.github.io/"
     }
 ]
 
 export const aboutme = {
     title: "About Me",
-    subtitle: "My name is Maria Traga.",
-    description: <div><span>I have studied Computer Science for my Master's Degree and Business Administration in my Bachelor's Degree.</span><br/>
-    <span>I develop web apps and I am very entusiastic about game development.</span></div>,
+    subtitle: "",
+    description: <div><span>After studying Business Administration in my Bachelor's Degree, I decided to follow my passion for programming.</span><br/>
+    <span> Currently I am finishing up my Master's Degree in Informatics by progressing my master's thesis in Unity.</span><br/>
+    <span>I enjoy developing both web and desktop apps and I am very entusiastic about game development.</span></div>,
     technologies: [
         "HTML",
         "CSS",
@@ -196,7 +191,7 @@ export const contact = {
         {
             id: 1,
             link: "mailto:maria.traga@outlook.com",
-            info: "maria.traga@outlook.com",
+            info: "Email",
             img: email
         },
         {
