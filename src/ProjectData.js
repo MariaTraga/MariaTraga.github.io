@@ -1,19 +1,16 @@
 import unity_spacer from './images/unity_spacer.gif';
 import unity_garden_gnomes from './images/unity_garden_gnome_tower_defense.gif';
 import unity_laser_defender from './images/unity_laser_defender.gif';
-import myPortfolio from './images/myPortfolioWebsite.PNG';
 import phone from './images/phone.png';
 import email from './images/email.png';
 import address from './images/address.png';
 import linkedIn from './images/linkedin.png';
 import github from './images/github.png';
-import lunartree from './images/lunartree.png';
 import poketeam from './images/poketeam.PNG';
 import backgroundgenerator from './images/backgroundgenerator.PNG';
 import facefinder from './images/facefinder.PNG';
 import astarminigame from './images/astarminigame.PNG';
-import tourismappandroid from './images/tourismapp.PNG';
-import tourismappjapan from './images/tourismappjapan.PNG';
+
 
 export const projects = [
     
@@ -62,7 +59,7 @@ export const projects = [
     {
         id: 4,
         name: "Poketeam",
-        img: poketeam,
+        img: "https://user-images.githubusercontent.com/73944909/176219668-ab43b18d-37d1-48d0-a4d2-1b290b066cbc.png",
         link: "https://mariatraga.github.io/poketeam/",
         description: "Web app created using React.",
         technologies:[
@@ -210,7 +207,7 @@ export const introduction = {
         "Web-APIs",
         "Unity Developer"
     ],
-    resume: "https://drive.google.com/file/d/1lJxb-3ViCLMxcUWfcFRcvcQkBpbADKtC/view"
+    resume: "https://drive.google.com/file/d/1w_YD4ZZ3hkyPKgZ5D7La-spGRy17WOrp/view?usp=sharing"
 }
 
 export const contact = {

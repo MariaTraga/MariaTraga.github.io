@@ -103,4 +103,5 @@ a{
 .about-technology{
     background-color: rgba(80,155,158,255);
     padding: 5px;
+    border-radius: 3px;
 }
