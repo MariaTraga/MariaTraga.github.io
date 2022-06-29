@@ -1,0 +1,8 @@
+old colors:
+
+buttons: lightgreen or brown
+background: rgba(56,67,89,255)
+text: rgba(244,244,244,255)
+primary shapes color: rgb(230, 55, 87)
+technologies color: purple
+button contact color: rgb(189, 31, 60)

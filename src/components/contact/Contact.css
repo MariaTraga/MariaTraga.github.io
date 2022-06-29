@@ -6,7 +6,7 @@
 .contact-bg{
     width:20px;
     height: 100%;
-    background-color: rgb(230, 55, 87);
+    background-color: rgb(80,155,158);
     position: absolute;
 }
 
@@ -74,7 +74,7 @@ textarea{
 button{
     border: none;
     padding: 15px 30px 15px 30px;
-    background-color: rgb(189, 31, 60);;
+    background-color: rgb(243,115,112);
     color: white;
     font-weight: bolder;
     font-size: large;

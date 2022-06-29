@@ -12,21 +12,21 @@ const Project = ({name, img, link, description, technologies}) => {
                 <div className="project-circle"></div>
                 <div className="project-circle"></div>
             </div>
-            <div className="flip-card">
-                <div className="flip-card-front">
-                    <a href={link} target="_blank" rel="noreferrer">
+            <a href={link} target="_blank" rel="noreferrer">
+                <div className="flip-card">
+                    <div className="flip-card-front">
                         <div className="project-image-wrapper">
                             <img className="project-image" src={img}></img>
                         </div>
-                    </a>
-                </div>
-                <div className="flip-card-back">
-                    <p className="project-desc">{description}</p>
-                    <div className="project-technologies">
-                        {technologies.map((tech, index) => (<div key={index} className="project-technology">{tech}</div>))}
+                    </div>
+                    <div className="flip-card-back">
+                        <p className="project-desc">{description}</p>
+                        <div className="project-technologies">
+                            {technologies.map((tech, index) => (<div key={index} className="project-technology">{tech}</div>))}
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     );
 }

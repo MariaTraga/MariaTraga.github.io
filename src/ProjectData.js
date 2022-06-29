@@ -7,6 +7,7 @@ import email from './images/email.png';
 import address from './images/address.png';
 import linkedIn from './images/linkedin.png';
 import github from './images/github.png';
+import lunartree from './images/lunartree.png';
 import poketeam from './images/poketeam.PNG';
 import backgroundgenerator from './images/backgroundgenerator.PNG';
 import facefinder from './images/facefinder.PNG';
@@ -15,8 +16,21 @@ import tourismappandroid from './images/tourismapp.PNG';
 import tourismappjapan from './images/tourismappjapan.PNG';
 
 export const projects = [
+    
     {
         id: 1,
+        name: "Lunar Tree - Master Thesis",
+        img: "https://user-images.githubusercontent.com/73944909/176411289-c684cbfc-0de9-4c74-8439-80f10e3cf863.png",
+        link: "https://github.com/MariaTraga/lunar-tree",
+        description: "Master Thesis in Unity. The game features smart A.I. agents and farm management.",
+        technologies:[
+            "Unity",
+            "C#",
+            "Behaviour Trees"
+        ]
+    },
+    {
+        id: 2,
         name: "Face Finder",
         img: facefinder,
         link: "https://mariatraga.github.io/face-finder/",
@@ -30,23 +44,11 @@ export const projects = [
             "Node.js"
         ]
     },
-    {
-        id: 2,
-        name: "Poketeam",
-        img: poketeam,
-        link: "https://mariatraga.github.io/poketeam/",
-        description: "Web app created using React.",
-        technologies:[
-            "React",
-            "Javascript",
-            "Html",
-            "CSS"
-        ]
-    },
+    
     {
         id: 3,
         name: "My Portfolio",
-        img: myPortfolio,
+        img: "https://user-images.githubusercontent.com/73944909/176410551-992f6fd2-2c11-4a04-8ceb-b0b4bc4d3f5c.png",
         link: "#",
         description: "This portfolio website was created using react.",
         technologies:
@@ -59,6 +61,19 @@ export const projects = [
     },
     {
         id: 4,
+        name: "Poketeam",
+        img: poketeam,
+        link: "https://mariatraga.github.io/poketeam/",
+        description: "Web app created using React.",
+        technologies:[
+            "React",
+            "Javascript",
+            "Html",
+            "CSS"
+        ]
+    },
+    {
+        id: 5,
         name: "CSS Background Generator",
         img: backgroundgenerator,
         link: "https://mariatraga.github.io/background-generator/",
@@ -71,7 +86,44 @@ export const projects = [
             ]
     },
     {
-        id: 5,
+        id: 6,
+        name: "Cinema Simulation",
+        img: "https://user-images.githubusercontent.com/73944909/176170466-e1b3ab80-03e9-45a4-a111-e2f5e1068c43.png",
+        link: "https://github.com/MariaTraga/cinema-simulation",
+        description: "A desktop cinema simulation app featuring employee and guest activities.",
+        technologies:
+        [
+            "Win Forms",
+            "C#",
+        ]
+    },
+    {
+        id: 7,
+        name: "Exploring Greece",
+        img: "https://user-images.githubusercontent.com/73944909/176215462-5629175b-8f9d-4df3-8851-eeb39094454c.png",
+        link: "https://github.com/MariaTraga/exploring-greece",
+        description: "An android app containing the main attractions of Santorini. Supports google maps geolocation.",
+        technologies:
+        [
+            "Android Studio",
+            "Java",
+            "Google API"
+        ]
+    },
+    {
+        id: 8,
+        name: "Japan Guide",
+        img: "https://user-images.githubusercontent.com/73944909/176181469-a8e5f718-efb9-4092-98b8-be63046860c8.png",
+        link: "https://github.com/MariaTraga/japan-guide",
+        description: "A desktop Japan-guide app.",
+        technologies:
+        [
+            "Win Forms",
+            "C#",
+        ]
+    },
+    {
+        id: 9,
         name: "Spacer",
         img: unity_spacer,
         description: "A 3D video game made in Unity.",
@@ -82,7 +134,7 @@ export const projects = [
         ]
     },
     {
-        id: 6,
+        id: 10,
         name: "Garden gnomes",
         img: unity_garden_gnomes,
         description: "A 2D video game made in Unity.",
@@ -93,7 +145,7 @@ export const projects = [
         ]
     },
     {
-        id: 7,
+        id: 11,
         name: "Laser Defender",
         img: unity_laser_defender,
         description: "A 2D video game made in Unity.",
@@ -104,7 +156,7 @@ export const projects = [
         ]
     },
     {
-        id: 8,
+        id: 12,
         name: "Chase mini game",
         img: astarminigame,
         description: "A 2D video game made in Unity. An application of the A* pathfinding algorithm.",
@@ -115,28 +167,6 @@ export const projects = [
             "A*"
         ]
     },
-    {
-        id: 9,
-        name: "Explore Santorini",
-        img: tourismappandroid,
-        description: "An android app containing the main attractions of Santorini. Supports google maps geolocation.",
-        technologies:
-        [
-            "Android Studio",
-            "Java",
-        ]
-    },
-    {
-        id: 10,
-        name: "Explore Japan",
-        img: tourismappjapan,
-        description: "A desktop Japan-guide app.",
-        technologies:
-        [
-            "Win Forms",
-            "C#",
-        ]
-    }
 ]
 
 export const collaborations = [
@@ -152,7 +182,7 @@ export const aboutme = {
     title: "About Me",
     subtitle: "",
     description: <div><span>After studying Business Administration in my Bachelor's Degree, I decided to follow my passion for programming.</span><br/>
-    <span> Currently I am finishing up my Master's Degree in Informatics by progressing my master's thesis in Unity.</span><br/>
+    <span> Having finished my Master's Degree in Informatics by completing my master's thesis in Unity, I plan on developing my skills as a developer.</span><br/>
     <span>I enjoy developing both web and desktop apps and I am very entusiastic about game development.</span></div>,
     technologies: [
         "HTML",
@@ -164,7 +194,8 @@ export const aboutme = {
         "MySQL",
         "Firebase",
         "Unity",
-        "C#"
+        "C#",
+        "Python"
     ]
 }
 
@@ -177,8 +208,7 @@ export const introduction = {
         "Front-End",
         "Back-End",
         "Web-APIs",
-        "Unity Developer",
-        "Unity Designer"
+        "Unity Developer"
     ],
     resume: "https://drive.google.com/file/d/1lJxb-3ViCLMxcUWfcFRcvcQkBpbADKtC/view"
 }
