@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.28e0cebb.css",
-    "main.js": "/static/js/main.b4f1392a.js",
+    "main.js": "/static/js/main.43308ed2.js",
     "static/js/787.6dd11c83.chunk.js": "/static/js/787.6dd11c83.chunk.js",
     "static/media/unity_laser_defender.gif": "/static/media/unity_laser_defender.7786def8f2796ce0d21c.gif",
     "static/media/poketeam.PNG": "/static/media/poketeam.b135c2258e9c7c87d21d.PNG",
@@ -15,11 +15,11 @@
     "static/media/me2.png": "/static/media/me2.1fa6a1d0518bacde0954.png",
     "index.html": "/index.html",
     "main.28e0cebb.css.map": "/static/css/main.28e0cebb.css.map",
-    "main.b4f1392a.js.map": "/static/js/main.b4f1392a.js.map",
+    "main.43308ed2.js.map": "/static/js/main.43308ed2.js.map",
     "787.6dd11c83.chunk.js.map": "/static/js/787.6dd11c83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28e0cebb.css",
-    "static/js/main.b4f1392a.js"
+    "static/js/main.43308ed2.js"
   ]
 }
