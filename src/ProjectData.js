@@ -207,7 +207,7 @@ export const introduction = {
         "Web-APIs",
         "Unity Developer"
     ],
-    resume: "https://drive.google.com/file/d/1w_YD4ZZ3hkyPKgZ5D7La-spGRy17WOrp/view?usp=sharing"
+    resume: "https://drive.google.com/file/d/1PgXljMX3ZUhZ4eeNtivS6bPz9vvOPXmi/view?usp=sharing"
 }
 
 export const contact = {
